@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Online gods helpin me
+.opendb
