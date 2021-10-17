@@ -38,6 +38,12 @@
     <None Include="default.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="light.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -48,10 +54,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="awesomeface.png">
+    <Image Include="container2.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
-    <Image Include="container.jpg">
+    <Image Include="container2_specular.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
