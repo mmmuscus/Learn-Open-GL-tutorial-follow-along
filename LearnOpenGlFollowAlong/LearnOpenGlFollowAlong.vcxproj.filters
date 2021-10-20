@@ -19,7 +19,7 @@
     <Filter Include="Resource Files\Textures">
       <UniqueIdentifier>{c710a9ec-4330-4571-a314-528aef43e205}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Cpps">
+    <Filter Include="Resource Files\Mains">
       <UniqueIdentifier>{0dce1396-7176-4a8b-b6f5-34bc5a6f9745}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -56,6 +56,15 @@
     <None Include="depthBuffer.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="stencilTesting.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="stencilTesting.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="stencilTestingFlatColor.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -78,10 +87,19 @@
     <Image Include="container2_specular.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
+    <Image Include="resources\textures\marble.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\metal.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Getting_started_and_Lighting.txt">
-      <Filter>Resource Files\Cpps</Filter>
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="Model_loading.txt">
+      <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
 </Project>

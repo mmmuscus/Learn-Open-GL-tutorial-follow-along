@@ -163,6 +163,9 @@
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
     <None Include="modelLoading.vert" />
+    <None Include="stencilTesting.frag" />
+    <None Include="stencilTesting.vert" />
+    <None Include="stencilTestingFlatColor.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -173,9 +176,12 @@
   <ItemGroup>
     <Image Include="container2.png" />
     <Image Include="container2_specular.png" />
+    <Image Include="resources\textures\marble.jpg" />
+    <Image Include="resources\textures\metal.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Getting_started_and_Lighting.txt" />
+    <Text Include="Model_loading.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
