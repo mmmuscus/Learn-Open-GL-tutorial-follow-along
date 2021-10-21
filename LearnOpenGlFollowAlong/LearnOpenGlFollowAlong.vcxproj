@@ -156,6 +156,8 @@
     <ClCompile Include="stb.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="blending.frag" />
+    <None Include="blending.vert" />
     <None Include="default.frag" />
     <None Include="default.vert" />
     <None Include="depthBuffer.frag" />
@@ -176,12 +178,14 @@
   <ItemGroup>
     <Image Include="container2.png" />
     <Image Include="container2_specular.png" />
+    <Image Include="resources\textures\window.png" />
     <Image Include="resources\textures\marble.jpg" />
     <Image Include="resources\textures\metal.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Getting_started_and_Lighting.txt" />
     <Text Include="Model_loading.txt" />
+    <Text Include="Stencil_testing.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
