@@ -161,6 +161,8 @@
     <None Include="default.frag" />
     <None Include="default.vert" />
     <None Include="depthBuffer.frag" />
+    <None Include="framebufferScreen.frag" />
+    <None Include="framebufferScreen.vert" />
     <None Include="light.frag" />
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
@@ -176,13 +178,14 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="container2.png" />
-    <Image Include="container2_specular.png" />
+    <Image Include="resources\textures\container2.png" />
+    <Image Include="resources\textures\container2_specular.png" />
     <Image Include="resources\textures\window.png" />
     <Image Include="resources\textures\marble.jpg" />
     <Image Include="resources\textures\metal.png" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Blending_and_Face_culling.txt" />
     <Text Include="Getting_started_and_Lighting.txt" />
     <Text Include="Model_loading.txt" />
     <Text Include="Stencil_testing.txt" />

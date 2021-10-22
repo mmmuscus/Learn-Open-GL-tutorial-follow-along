@@ -71,6 +71,12 @@
     <None Include="blending.vert">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="framebufferScreen.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="framebufferScreen.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -87,12 +93,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="container2.png">
-      <Filter>Resource Files\Textures</Filter>
-    </Image>
-    <Image Include="container2_specular.png">
-      <Filter>Resource Files\Textures</Filter>
-    </Image>
     <Image Include="resources\textures\marble.jpg">
       <Filter>Resource Files\Textures</Filter>
     </Image>
@@ -100,6 +100,12 @@
       <Filter>Resource Files\Textures</Filter>
     </Image>
     <Image Include="resources\textures\window.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2_specular.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
@@ -111,6 +117,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="Stencil_testing.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="Blending_and_Face_culling.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
