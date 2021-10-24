@@ -158,6 +158,8 @@
   <ItemGroup>
     <None Include="blending.frag" />
     <None Include="blending.vert" />
+    <None Include="cubemap.frag" />
+    <None Include="cubemap.vert" />
     <None Include="default.frag" />
     <None Include="default.vert" />
     <None Include="depthBuffer.frag" />
@@ -167,6 +169,8 @@
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
     <None Include="modelLoading.vert" />
+    <None Include="skybox.frag" />
+    <None Include="skybox.vert" />
     <None Include="stencilTesting.frag" />
     <None Include="stencilTesting.vert" />
     <None Include="stencilTestingFlatColor.frag" />
@@ -186,6 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Blending_and_Face_culling.txt" />
+    <Text Include="Framebuffer_and_Post_processing.txt" />
     <Text Include="Getting_started_and_Lighting.txt" />
     <Text Include="Model_loading.txt" />
     <Text Include="Stencil_testing.txt" />

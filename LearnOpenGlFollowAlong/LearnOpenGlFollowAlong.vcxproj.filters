@@ -77,6 +77,18 @@
     <None Include="framebufferScreen.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="cubemap.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="cubemap.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -120,6 +132,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="Blending_and_Face_culling.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="Framebuffer_and_Post_processing.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
