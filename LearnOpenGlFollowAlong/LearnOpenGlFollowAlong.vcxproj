@@ -156,8 +156,10 @@
     <ClCompile Include="stb.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="advancedGLSL.vert" />
     <None Include="blending.frag" />
     <None Include="blending.vert" />
+    <None Include="blue.frag" />
     <None Include="cubemap.frag" />
     <None Include="cubemap.vert" />
     <None Include="default.frag" />
@@ -165,15 +167,18 @@
     <None Include="depthBuffer.frag" />
     <None Include="framebufferScreen.frag" />
     <None Include="framebufferScreen.vert" />
+    <None Include="green.frag" />
     <None Include="light.frag" />
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
     <None Include="modelLoading.vert" />
+    <None Include="red.frag" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
     <None Include="stencilTesting.frag" />
     <None Include="stencilTesting.vert" />
     <None Include="stencilTestingFlatColor.frag" />
+    <None Include="yellow.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -194,6 +199,7 @@
     <Text Include="Getting_started_and_Lighting.txt" />
     <Text Include="Model_loading.txt" />
     <Text Include="Stencil_testing.txt" />
+    <Text Include="Cubemaps.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

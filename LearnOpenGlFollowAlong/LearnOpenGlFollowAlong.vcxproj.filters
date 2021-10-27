@@ -89,6 +89,21 @@
     <None Include="skybox.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="advancedGLSL.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="red.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="green.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="blue.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="yellow.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -135,6 +150,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="Framebuffer_and_Post_processing.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="Cubemaps.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
