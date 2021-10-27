@@ -172,6 +172,9 @@
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
     <None Include="modelLoading.vert" />
+    <None Include="normalVisualization.frag" />
+    <None Include="normalVisualization.geom" />
+    <None Include="normalVisualization.vert" />
     <None Include="red.frag" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
@@ -194,6 +197,7 @@
     <Image Include="resources\textures\metal.png" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Advanced_GLSL.txt" />
     <Text Include="Blending_and_Face_culling.txt" />
     <Text Include="Framebuffer_and_Post_processing.txt" />
     <Text Include="Getting_started_and_Lighting.txt" />
