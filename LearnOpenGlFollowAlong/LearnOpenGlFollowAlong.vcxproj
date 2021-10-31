@@ -156,7 +156,12 @@
     <ClCompile Include="stb.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="4.10. Instancing" />
+    <None Include="AAPost.frag" />
+    <None Include="AAPost.vert" />
     <None Include="advancedGLSL.vert" />
+    <None Include="antiAliasing.frag" />
+    <None Include="antiAliasing.vert" />
     <None Include="asteroid.frag" />
     <None Include="asteroid.vert" />
     <None Include="blending.frag" />
@@ -201,14 +206,14 @@
     <Image Include="resources\textures\metal.png" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Advanced_GLSL.txt" />
-    <Text Include="Blending_and_Face_culling.txt" />
-    <Text Include="Framebuffer_and_Post_processing.txt" />
-    <Text Include="Geometry_shader.txt" />
-    <Text Include="Getting_started_and_Lighting.txt" />
-    <Text Include="Model_loading.txt" />
-    <Text Include="Stencil_testing.txt" />
-    <Text Include="Cubemaps.txt" />
+    <Text Include="4.8. Advanced_GLSL.txt" />
+    <Text Include="4.3. - 4.4. Blending_and_Face_culling.txt" />
+    <Text Include="4.5. Framebuffer_and_Post_processing.txt" />
+    <Text Include="4.9. Geometry_shader.txt" />
+    <Text Include="1. - 2. Getting_started_and_Lighting.txt" />
+    <Text Include="3. Model_loading.txt" />
+    <Text Include="4.1. - 4.2. Stencil_testing.txt" />
+    <Text Include="4.6. Cubemaps.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

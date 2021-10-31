@@ -22,8 +22,11 @@
     <Filter Include="Resource Files\Mains">
       <UniqueIdentifier>{0dce1396-7176-4a8b-b6f5-34bc5a6f9745}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Shaders\Instancing">
+    <Filter Include="Resource Files\Shaders\4.10. Instancing">
       <UniqueIdentifier>{01ce59ab-8de4-4a0f-b59b-7edf45ae36eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.11. Anti Aliasing">
+      <UniqueIdentifier>{3d082d90-46b9-48c3-bf96-96dd1258cfa0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -117,16 +120,31 @@
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="planet.vert">
-      <Filter>Resource Files\Shaders\Instancing</Filter>
+      <Filter>Resource Files\Shaders\4.10. Instancing</Filter>
     </None>
     <None Include="planet.frag">
-      <Filter>Resource Files\Shaders\Instancing</Filter>
+      <Filter>Resource Files\Shaders\4.10. Instancing</Filter>
     </None>
     <None Include="asteroid.vert">
-      <Filter>Resource Files\Shaders\Instancing</Filter>
+      <Filter>Resource Files\Shaders\4.10. Instancing</Filter>
     </None>
     <None Include="asteroid.frag">
-      <Filter>Resource Files\Shaders\Instancing</Filter>
+      <Filter>Resource Files\Shaders\4.10. Instancing</Filter>
+    </None>
+    <None Include="4.10. Instancing">
+      <Filter>Resource Files\Mains</Filter>
+    </None>
+    <None Include="antiAliasing.vert">
+      <Filter>Resource Files\Shaders\4.11. Anti Aliasing</Filter>
+    </None>
+    <None Include="antiAliasing.frag">
+      <Filter>Resource Files\Shaders\4.11. Anti Aliasing</Filter>
+    </None>
+    <None Include="AAPost.vert">
+      <Filter>Resource Files\Shaders\4.11. Anti Aliasing</Filter>
+    </None>
+    <None Include="AAPost.frag">
+      <Filter>Resource Files\Shaders\4.11. Anti Aliasing</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -161,28 +179,28 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Getting_started_and_Lighting.txt">
+    <Text Include="1. - 2. Getting_started_and_Lighting.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Model_loading.txt">
+    <Text Include="3. Model_loading.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Stencil_testing.txt">
+    <Text Include="4.1. - 4.2. Stencil_testing.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Blending_and_Face_culling.txt">
+    <Text Include="4.3. - 4.4. Blending_and_Face_culling.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Framebuffer_and_Post_processing.txt">
+    <Text Include="4.5. Framebuffer_and_Post_processing.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Cubemaps.txt">
+    <Text Include="4.6. Cubemaps.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Advanced_GLSL.txt">
+    <Text Include="4.8. Advanced_GLSL.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="Geometry_shader.txt">
+    <Text Include="4.9. Geometry_shader.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
