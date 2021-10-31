@@ -22,6 +22,9 @@
     <Filter Include="Resource Files\Mains">
       <UniqueIdentifier>{0dce1396-7176-4a8b-b6f5-34bc5a6f9745}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\Instancing">
+      <UniqueIdentifier>{01ce59ab-8de4-4a0f-b59b-7edf45ae36eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -113,6 +116,18 @@
     <None Include="normalVisualization.geom">
       <Filter>Resource Files\Shaders</Filter>
     </None>
+    <None Include="planet.vert">
+      <Filter>Resource Files\Shaders\Instancing</Filter>
+    </None>
+    <None Include="planet.frag">
+      <Filter>Resource Files\Shaders\Instancing</Filter>
+    </None>
+    <None Include="asteroid.vert">
+      <Filter>Resource Files\Shaders\Instancing</Filter>
+    </None>
+    <None Include="asteroid.frag">
+      <Filter>Resource Files\Shaders\Instancing</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -165,6 +180,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="Advanced_GLSL.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="Geometry_shader.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>

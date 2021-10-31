@@ -157,6 +157,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="advancedGLSL.vert" />
+    <None Include="asteroid.frag" />
+    <None Include="asteroid.vert" />
     <None Include="blending.frag" />
     <None Include="blending.vert" />
     <None Include="blue.frag" />
@@ -175,6 +177,8 @@
     <None Include="normalVisualization.frag" />
     <None Include="normalVisualization.geom" />
     <None Include="normalVisualization.vert" />
+    <None Include="planet.frag" />
+    <None Include="planet.vert" />
     <None Include="red.frag" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
@@ -200,6 +204,7 @@
     <Text Include="Advanced_GLSL.txt" />
     <Text Include="Blending_and_Face_culling.txt" />
     <Text Include="Framebuffer_and_Post_processing.txt" />
+    <Text Include="Geometry_shader.txt" />
     <Text Include="Getting_started_and_Lighting.txt" />
     <Text Include="Model_loading.txt" />
     <Text Include="Stencil_testing.txt" />
