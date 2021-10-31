@@ -28,6 +28,9 @@
     <Filter Include="Resource Files\Shaders\4.11. Anti Aliasing">
       <UniqueIdentifier>{3d082d90-46b9-48c3-bf96-96dd1258cfa0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.1. Blinn-Phong">
+      <UniqueIdentifier>{e80e0019-b25a-4c6e-b367-9638526d0cd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -145,6 +148,15 @@
     </None>
     <None Include="AAPost.frag">
       <Filter>Resource Files\Shaders\4.11. Anti Aliasing</Filter>
+    </None>
+    <None Include="4.11. Anti aliasing">
+      <Filter>Resource Files\Mains</Filter>
+    </None>
+    <None Include="blinnPhong.vert">
+      <Filter>Resource Files\Shaders\5.1. Blinn-Phong</Filter>
+    </None>
+    <None Include="blinnPhong.frag">
+      <Filter>Resource Files\Shaders\5.1. Blinn-Phong</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

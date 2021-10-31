@@ -157,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="4.10. Instancing" />
+    <None Include="4.11. Anti aliasing" />
     <None Include="AAPost.frag" />
     <None Include="AAPost.vert" />
     <None Include="advancedGLSL.vert" />
@@ -166,6 +167,8 @@
     <None Include="asteroid.vert" />
     <None Include="blending.frag" />
     <None Include="blending.vert" />
+    <None Include="blinnPhong.frag" />
+    <None Include="blinnPhong.vert" />
     <None Include="blue.frag" />
     <None Include="cubemap.frag" />
     <None Include="cubemap.vert" />
