@@ -156,8 +156,8 @@
     <ClCompile Include="stb.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="4.10. Instancing" />
-    <None Include="4.11. Anti aliasing" />
+    <None Include="4.10. Instancing.txt" />
+    <None Include="4.11. Anti aliasing.txt" />
     <None Include="AAPost.frag" />
     <None Include="AAPost.vert" />
     <None Include="advancedGLSL.vert" />
@@ -177,6 +177,8 @@
     <None Include="depthBuffer.frag" />
     <None Include="framebufferScreen.frag" />
     <None Include="framebufferScreen.vert" />
+    <None Include="gammaCorrection.frag" />
+    <None Include="gammaCorrection.vert" />
     <None Include="green.frag" />
     <None Include="light.frag" />
     <None Include="light.vert" />
@@ -217,6 +219,7 @@
     <Text Include="3. Model_loading.txt" />
     <Text Include="4.1. - 4.2. Stencil_testing.txt" />
     <Text Include="4.6. Cubemaps.txt" />
+    <Text Include="5.1. Blinn-Phong.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
