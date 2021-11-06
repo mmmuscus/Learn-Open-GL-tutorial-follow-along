@@ -189,6 +189,11 @@
     <None Include="normalVisualization.vert" />
     <None Include="planet.frag" />
     <None Include="planet.vert" />
+    <None Include="pointShadows.frag" />
+    <None Include="pointShadows.vert" />
+    <None Include="pointShadowsDepthBuffer.frag" />
+    <None Include="pointShadowsDepthBuffer.geom" />
+    <None Include="pointShadowsDepthBuffer.vert" />
     <None Include="red.frag" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
@@ -209,6 +214,7 @@
     <Image Include="resources\textures\window.png" />
     <Image Include="resources\textures\marble.jpg" />
     <Image Include="resources\textures\metal.png" />
+    <Image Include="resources\textures\wood.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="4.8. Advanced_GLSL.txt" />
@@ -220,6 +226,7 @@
     <Text Include="4.1. - 4.2. Stencil_testing.txt" />
     <Text Include="4.6. Cubemaps.txt" />
     <Text Include="5.1. Blinn-Phong.txt" />
+    <Text Include="5.2. Gamma correction.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
