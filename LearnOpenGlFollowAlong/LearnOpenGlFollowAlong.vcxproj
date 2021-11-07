@@ -189,6 +189,8 @@
     <None Include="normalVisualization.frag" />
     <None Include="normalVisualization.geom" />
     <None Include="normalVisualization.vert" />
+    <None Include="parallaxMapping.frag" />
+    <None Include="parallaxMapping.vert" />
     <None Include="planet.frag" />
     <None Include="planet.vert" />
     <None Include="pointShadows.frag" />
@@ -211,6 +213,9 @@
     <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\textures\bricks2.jpg" />
+    <Image Include="resources\textures\bricks2_disp.jpg" />
+    <Image Include="resources\textures\bricks2_normal.jpg" />
     <Image Include="resources\textures\brickwall.jpg" />
     <Image Include="resources\textures\brickwall_normal.jpg" />
     <Image Include="resources\textures\container2.png" />
@@ -232,6 +237,7 @@
     <Text Include="5.1. Blinn-Phong.txt" />
     <Text Include="5.2. Gamma correction.txt" />
     <Text Include="5.3.2. Point shadows.txt" />
+    <Text Include="5.4. Normal mapping.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

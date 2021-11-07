@@ -40,6 +40,9 @@
     <Filter Include="Resource Files\Shaders\5.3.2. Point shadows">
       <UniqueIdentifier>{dea92839-263a-4db9-bde9-2b9ccfa0ac05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.5. Parallax mapping">
+      <UniqueIdentifier>{e163b8d3-4867-4282-be66-091129ff699d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -194,6 +197,12 @@
     <None Include="normalMapping.frag">
       <Filter>Resource Files\Shaders\5.4. Normal mapping</Filter>
     </None>
+    <None Include="parallaxMapping.vert">
+      <Filter>Resource Files\Shaders\5.5. Parallax mapping</Filter>
+    </None>
+    <None Include="parallaxMapping.frag">
+      <Filter>Resource Files\Shaders\5.5. Parallax mapping</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -234,6 +243,15 @@
     <Image Include="resources\textures\brickwall_normal.jpg">
       <Filter>Resource Files\Textures</Filter>
     </Image>
+    <Image Include="resources\textures\bricks2.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_disp.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_normal.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="1. - 2. Getting_started_and_Lighting.txt">
@@ -267,6 +285,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.3.2. Point shadows.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="5.4. Normal mapping.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
