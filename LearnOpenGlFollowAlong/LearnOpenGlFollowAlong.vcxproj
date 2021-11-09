@@ -180,6 +180,10 @@
     <None Include="gammaCorrection.frag" />
     <None Include="gammaCorrection.vert" />
     <None Include="green.frag" />
+    <None Include="HDR.frag" />
+    <None Include="HDR.vert" />
+    <None Include="HDRLighting.vert" />
+    <None Include="HDRLighting.frag" />
     <None Include="light.frag" />
     <None Include="light.vert" />
     <None Include="modelLoading.frag" />
@@ -238,6 +242,7 @@
     <Text Include="5.2. Gamma correction.txt" />
     <Text Include="5.3.2. Point shadows.txt" />
     <Text Include="5.4. Normal mapping.txt" />
+    <Text Include="5.5. Parallax mapping.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

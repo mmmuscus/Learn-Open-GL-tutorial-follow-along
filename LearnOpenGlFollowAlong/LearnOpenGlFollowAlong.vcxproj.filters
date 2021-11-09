@@ -43,6 +43,9 @@
     <Filter Include="Resource Files\Shaders\5.5. Parallax mapping">
       <UniqueIdentifier>{e163b8d3-4867-4282-be66-091129ff699d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.6. HDR">
+      <UniqueIdentifier>{bd0bfacc-1dbc-416a-83d9-09cab96ad254}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -203,6 +206,18 @@
     <None Include="parallaxMapping.frag">
       <Filter>Resource Files\Shaders\5.5. Parallax mapping</Filter>
     </None>
+    <None Include="HDRLighting.vert">
+      <Filter>Resource Files\Shaders\5.6. HDR</Filter>
+    </None>
+    <None Include="HDRLighting.frag">
+      <Filter>Resource Files\Shaders\5.6. HDR</Filter>
+    </None>
+    <None Include="HDR.vert">
+      <Filter>Resource Files\Shaders\5.6. HDR</Filter>
+    </None>
+    <None Include="HDR.frag">
+      <Filter>Resource Files\Shaders\5.6. HDR</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -288,6 +303,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.4. Normal mapping.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="5.5. Parallax mapping.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
