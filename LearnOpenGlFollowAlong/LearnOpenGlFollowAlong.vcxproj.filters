@@ -46,6 +46,9 @@
     <Filter Include="Resource Files\Shaders\5.6. HDR">
       <UniqueIdentifier>{bd0bfacc-1dbc-416a-83d9-09cab96ad254}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.7. Bloom">
+      <UniqueIdentifier>{a4593b01-b0b4-4799-b3e6-e01e4fa0cc06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -218,6 +221,27 @@
     <None Include="HDR.frag">
       <Filter>Resource Files\Shaders\5.6. HDR</Filter>
     </None>
+    <None Include="Bloom.vert">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="Bloom.frag">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="lightBox.frag">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="Blur.vert">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="Blur.frag">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="bloomFinal.vert">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
+    <None Include="bloomFinal.frag">
+      <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -306,6 +330,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.5. Parallax mapping.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="5.6. HDR.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
