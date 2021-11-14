@@ -58,6 +58,9 @@
     <Filter Include="Resource Files\Shaders\6.2. PBR Lighting">
       <UniqueIdentifier>{2a123d7d-1e07-48a8-ba73-8bbf2161e196}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\6.3.1. Diffuse irradiance">
+      <UniqueIdentifier>{f21b83bb-560a-42f7-a4c1-db3dde8344b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -295,6 +298,27 @@
     </None>
     <None Include="PBR.frag">
       <Filter>Resource Files\Shaders\6.2. PBR Lighting</Filter>
+    </None>
+    <None Include="6.2. PBR Lighting">
+      <Filter>Resource Files\Mains</Filter>
+    </None>
+    <None Include="diffuseIrradianceCubemap.vert">
+      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+    </None>
+    <None Include="equirectangularToCubemap.frag">
+      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+    </None>
+    <None Include="irradianceConvolution.frag">
+      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+    </None>
+    <None Include="backGround.vert">
+      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+    </None>
+    <None Include="backGround.frag">
+      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+    </None>
+    <None Include="resources\textures\newport_loft.hdr">
+      <Filter>Resource Files\Textures</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

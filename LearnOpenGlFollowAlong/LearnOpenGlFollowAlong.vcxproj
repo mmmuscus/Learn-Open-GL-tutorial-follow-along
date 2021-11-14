@@ -159,6 +159,7 @@
     <None Include="4.10. Instancing.txt" />
     <None Include="4.11. Anti aliasing.txt" />
     <None Include="5.8. Deferred Shading.txt" />
+    <None Include="6.2. PBR Lighting" />
     <None Include="AAPost.frag" />
     <None Include="AAPost.vert" />
     <None Include="advancedGLSL.vert" />
@@ -166,6 +167,8 @@
     <None Include="antiAliasing.vert" />
     <None Include="asteroid.frag" />
     <None Include="asteroid.vert" />
+    <None Include="backGround.frag" />
+    <None Include="backGround.vert" />
     <None Include="blending.frag" />
     <None Include="blending.vert" />
     <None Include="blinnPhong.frag" />
@@ -186,6 +189,8 @@
     <None Include="deferredShading.frag" />
     <None Include="deferredShading.vert" />
     <None Include="depthBuffer.frag" />
+    <None Include="diffuseIrradianceCubemap.vert" />
+    <None Include="equirectangularToCubemap.frag" />
     <None Include="framebufferScreen.frag" />
     <None Include="framebufferScreen.vert" />
     <None Include="gammaCorrection.frag" />
@@ -197,6 +202,7 @@
     <None Include="HDR.vert" />
     <None Include="HDRLighting.vert" />
     <None Include="HDRLighting.frag" />
+    <None Include="irradianceConvolution.frag" />
     <None Include="light.frag" />
     <None Include="light.vert" />
     <None Include="lightBox.frag" />
@@ -219,6 +225,7 @@
     <None Include="pointShadowsDepthBuffer.geom" />
     <None Include="pointShadowsDepthBuffer.vert" />
     <None Include="red.frag" />
+    <None Include="resources\textures\newport_loft.hdr" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
     <None Include="SSAO.frag" />
