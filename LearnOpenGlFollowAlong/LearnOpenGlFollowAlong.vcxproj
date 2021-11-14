@@ -158,6 +158,7 @@
   <ItemGroup>
     <None Include="4.10. Instancing.txt" />
     <None Include="4.11. Anti aliasing.txt" />
+    <None Include="5.8. Deferred Shading.txt" />
     <None Include="AAPost.frag" />
     <None Include="AAPost.vert" />
     <None Include="advancedGLSL.vert" />
@@ -218,6 +219,12 @@
     <None Include="red.frag" />
     <None Include="skybox.frag" />
     <None Include="skybox.vert" />
+    <None Include="SSAO.frag" />
+    <None Include="SSAO.vert" />
+    <None Include="SSAOBlur.frag" />
+    <None Include="SSAOGeometry.frag" />
+    <None Include="SSAOGeometry.vert" />
+    <None Include="SSAOLighting.frag" />
     <None Include="stencilTesting.frag" />
     <None Include="stencilTesting.vert" />
     <None Include="stencilTestingFlatColor.frag" />

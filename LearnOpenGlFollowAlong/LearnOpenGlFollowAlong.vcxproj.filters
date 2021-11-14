@@ -52,6 +52,9 @@
     <Filter Include="Resource Files\Shaders\5.8. Deferred Shading">
       <UniqueIdentifier>{37ea67dc-e3e6-48cb-a055-9114c2d4a450}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.9. SSAO">
+      <UniqueIdentifier>{aadfcdf9-127b-44df-bc88-0fddf8ee3fd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -262,6 +265,27 @@
     </None>
     <None Include="deferredLightBox.frag">
       <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="5.8. Deferred Shading.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </None>
+    <None Include="SSAOGeometry.vert">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
+    </None>
+    <None Include="SSAOGeometry.frag">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
+    </None>
+    <None Include="SSAO.vert">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
+    </None>
+    <None Include="SSAO.frag">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
+    </None>
+    <None Include="SSAOLighting.frag">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
+    </None>
+    <None Include="SSAOBlur.frag">
+      <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
