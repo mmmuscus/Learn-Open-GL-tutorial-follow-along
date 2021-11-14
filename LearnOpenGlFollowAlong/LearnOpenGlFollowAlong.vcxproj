@@ -180,11 +180,17 @@
     <None Include="cubemap.vert" />
     <None Include="default.frag" />
     <None Include="default.vert" />
+    <None Include="deferredLightBox.frag" />
+    <None Include="deferredLightBox.vert" />
+    <None Include="deferredShading.frag" />
+    <None Include="deferredShading.vert" />
     <None Include="depthBuffer.frag" />
     <None Include="framebufferScreen.frag" />
     <None Include="framebufferScreen.vert" />
     <None Include="gammaCorrection.frag" />
     <None Include="gammaCorrection.vert" />
+    <None Include="gBuffer.frag" />
+    <None Include="gBuffer.vert" />
     <None Include="green.frag" />
     <None Include="HDR.frag" />
     <None Include="HDR.vert" />
@@ -251,6 +257,7 @@
     <Text Include="5.4. Normal mapping.txt" />
     <Text Include="5.5. Parallax mapping.txt" />
     <Text Include="5.6. HDR.txt" />
+    <Text Include="5.7. Bloom.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

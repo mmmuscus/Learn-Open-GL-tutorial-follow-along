@@ -49,6 +49,9 @@
     <Filter Include="Resource Files\Shaders\5.7. Bloom">
       <UniqueIdentifier>{a4593b01-b0b4-4799-b3e6-e01e4fa0cc06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\5.8. Deferred Shading">
+      <UniqueIdentifier>{37ea67dc-e3e6-48cb-a055-9114c2d4a450}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -242,6 +245,24 @@
     <None Include="bloomFinal.frag">
       <Filter>Resource Files\Shaders\5.7. Bloom</Filter>
     </None>
+    <None Include="gBuffer.vert">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="gBuffer.frag">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="deferredShading.frag">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="deferredShading.vert">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="deferredLightBox.vert">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
+    <None Include="deferredLightBox.frag">
+      <Filter>Resource Files\Shaders\5.8. Deferred Shading</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -333,6 +354,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.6. HDR.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="5.7. Bloom.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
