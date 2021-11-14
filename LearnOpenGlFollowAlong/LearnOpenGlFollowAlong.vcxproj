@@ -209,6 +209,8 @@
     <None Include="normalVisualization.vert" />
     <None Include="parallaxMapping.frag" />
     <None Include="parallaxMapping.vert" />
+    <None Include="PBR.frag" />
+    <None Include="PBR.vert" />
     <None Include="planet.frag" />
     <None Include="planet.vert" />
     <None Include="pointShadows.frag" />
@@ -265,6 +267,7 @@
     <Text Include="5.5. Parallax mapping.txt" />
     <Text Include="5.6. HDR.txt" />
     <Text Include="5.7. Bloom.txt" />
+    <Text Include="5.9. SSAO.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

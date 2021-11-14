@@ -55,6 +55,9 @@
     <Filter Include="Resource Files\Shaders\5.9. SSAO">
       <UniqueIdentifier>{aadfcdf9-127b-44df-bc88-0fddf8ee3fd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\6.2. PBR Lighting">
+      <UniqueIdentifier>{2a123d7d-1e07-48a8-ba73-8bbf2161e196}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -287,6 +290,12 @@
     <None Include="SSAOBlur.frag">
       <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
     </None>
+    <None Include="PBR.vert">
+      <Filter>Resource Files\Shaders\6.2. PBR Lighting</Filter>
+    </None>
+    <None Include="PBR.frag">
+      <Filter>Resource Files\Shaders\6.2. PBR Lighting</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -381,6 +390,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.7. Bloom.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="5.9. SSAO.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>
