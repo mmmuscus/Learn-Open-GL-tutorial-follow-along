@@ -55,11 +55,8 @@
     <Filter Include="Resource Files\Shaders\5.9. SSAO">
       <UniqueIdentifier>{aadfcdf9-127b-44df-bc88-0fddf8ee3fd0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Shaders\6.2. PBR Lighting">
+    <Filter Include="Resource Files\Shaders\6. Phisically based rendering">
       <UniqueIdentifier>{2a123d7d-1e07-48a8-ba73-8bbf2161e196}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Shaders\6.3.1. Diffuse irradiance">
-      <UniqueIdentifier>{f21b83bb-560a-42f7-a4c1-db3dde8344b7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -294,31 +291,37 @@
       <Filter>Resource Files\Shaders\5.9. SSAO</Filter>
     </None>
     <None Include="PBR.vert">
-      <Filter>Resource Files\Shaders\6.2. PBR Lighting</Filter>
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
     </None>
     <None Include="PBR.frag">
-      <Filter>Resource Files\Shaders\6.2. PBR Lighting</Filter>
-    </None>
-    <None Include="6.2. PBR Lighting">
-      <Filter>Resource Files\Mains</Filter>
-    </None>
-    <None Include="diffuseIrradianceCubemap.vert">
-      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
-    </None>
-    <None Include="equirectangularToCubemap.frag">
-      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
-    </None>
-    <None Include="irradianceConvolution.frag">
-      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
-    </None>
-    <None Include="backGround.vert">
-      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
-    </None>
-    <None Include="backGround.frag">
-      <Filter>Resource Files\Shaders\6.3.1. Diffuse irradiance</Filter>
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
     </None>
     <None Include="resources\textures\newport_loft.hdr">
       <Filter>Resource Files\Textures</Filter>
+    </None>
+    <None Include="PBRCubemap.vert">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="equirectangularToCubemap.frag">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="irradianceConvolution.frag">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="prefilter.frag">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="BRDF.frag">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="background.vert">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="background.frag">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
+    </None>
+    <None Include="BRDF.vert">
+      <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
