@@ -61,6 +61,30 @@
     <Filter Include="Resource Files\Shaders\7.2. Text rendering">
       <UniqueIdentifier>{adf47756-58c3-4ade-b69f-90989ab99f1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\1. - 2. Getting started and Lighting">
+      <UniqueIdentifier>{45326dbe-d73c-4dbf-8b6d-c1c6587aeabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\3. Model loading">
+      <UniqueIdentifier>{80f1d985-8e29-4255-9115-4679cd2694de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.1. - 4.2. Stencil testing">
+      <UniqueIdentifier>{f67f19e2-d2bf-4bc6-a284-8566aafdd0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.3. - 4.4. Blending and Face culling">
+      <UniqueIdentifier>{6621f7dd-e46c-4557-aa29-846b74e348da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.5. Framebuffer and Post processing">
+      <UniqueIdentifier>{3e276bfa-c7f9-49e7-8bd9-4f090ef289ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.6. Cubemaps">
+      <UniqueIdentifier>{f707be29-5d22-4226-87f1-1624bd4d747c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.8. Advanced GLSL">
+      <UniqueIdentifier>{228f6fe3-f247-4685-b9c0-32e10988f3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\4.9. Geometry shader">
+      <UniqueIdentifier>{476d500b-ff2a-473d-a178-9c276665a864}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -74,82 +98,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="default.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="light.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="light.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="modelLoading.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="modelLoading.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
     <None Include="depthBuffer.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="stencilTesting.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="stencilTesting.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="stencilTestingFlatColor.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="blending.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="blending.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="framebufferScreen.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="framebufferScreen.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="cubemap.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="cubemap.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="skybox.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="skybox.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="advancedGLSL.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="red.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="green.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="blue.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="yellow.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="normalVisualization.vert">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="normalVisualization.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
-    <None Include="normalVisualization.geom">
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="planet.vert">
@@ -332,6 +281,81 @@
     <None Include="text.frag">
       <Filter>Resource Files\Shaders\7.2. Text rendering</Filter>
     </None>
+    <None Include="default.frag">
+      <Filter>Resource Files\Shaders\1. - 2. Getting started and Lighting</Filter>
+    </None>
+    <None Include="default.vert">
+      <Filter>Resource Files\Shaders\1. - 2. Getting started and Lighting</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Resource Files\Shaders\1. - 2. Getting started and Lighting</Filter>
+    </None>
+    <None Include="light.frag">
+      <Filter>Resource Files\Shaders\1. - 2. Getting started and Lighting</Filter>
+    </None>
+    <None Include="modelLoading.vert">
+      <Filter>Resource Files\Shaders\3. Model loading</Filter>
+    </None>
+    <None Include="modelLoading.frag">
+      <Filter>Resource Files\Shaders\3. Model loading</Filter>
+    </None>
+    <None Include="stencilTestingFlatColor.frag">
+      <Filter>Resource Files\Shaders\4.1. - 4.2. Stencil testing</Filter>
+    </None>
+    <None Include="stencilTesting.frag">
+      <Filter>Resource Files\Shaders\4.1. - 4.2. Stencil testing</Filter>
+    </None>
+    <None Include="stencilTesting.vert">
+      <Filter>Resource Files\Shaders\4.1. - 4.2. Stencil testing</Filter>
+    </None>
+    <None Include="blending.vert">
+      <Filter>Resource Files\Shaders\4.3. - 4.4. Blending and Face culling</Filter>
+    </None>
+    <None Include="blending.frag">
+      <Filter>Resource Files\Shaders\4.3. - 4.4. Blending and Face culling</Filter>
+    </None>
+    <None Include="framebufferScreen.vert">
+      <Filter>Resource Files\Shaders\4.5. Framebuffer and Post processing</Filter>
+    </None>
+    <None Include="framebufferScreen.frag">
+      <Filter>Resource Files\Shaders\4.5. Framebuffer and Post processing</Filter>
+    </None>
+    <None Include="cubemap.frag">
+      <Filter>Resource Files\Shaders\4.6. Cubemaps</Filter>
+    </None>
+    <None Include="cubemap.vert">
+      <Filter>Resource Files\Shaders\4.6. Cubemaps</Filter>
+    </None>
+    <None Include="skybox.frag">
+      <Filter>Resource Files\Shaders\4.6. Cubemaps</Filter>
+    </None>
+    <None Include="skybox.vert">
+      <Filter>Resource Files\Shaders\4.6. Cubemaps</Filter>
+    </None>
+    <None Include="blue.frag">
+      <Filter>Resource Files\Shaders\4.8. Advanced GLSL</Filter>
+    </None>
+    <None Include="green.frag">
+      <Filter>Resource Files\Shaders\4.8. Advanced GLSL</Filter>
+    </None>
+    <None Include="red.frag">
+      <Filter>Resource Files\Shaders\4.8. Advanced GLSL</Filter>
+    </None>
+    <None Include="yellow.frag">
+      <Filter>Resource Files\Shaders\4.8. Advanced GLSL</Filter>
+    </None>
+    <None Include="advancedGLSL.vert">
+      <Filter>Resource Files\Shaders\4.8. Advanced GLSL</Filter>
+    </None>
+    <None Include="normalVisualization.frag">
+      <Filter>Resource Files\Shaders\4.9. Geometry shader</Filter>
+    </None>
+    <None Include="normalVisualization.geom">
+      <Filter>Resource Files\Shaders\4.9. Geometry shader</Filter>
+    </None>
+    <None Include="normalVisualization.vert">
+      <Filter>Resource Files\Shaders\4.9. Geometry shader</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -383,28 +407,28 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="1. - 2. Getting_started_and_Lighting.txt">
+    <Text Include="1. - 2. Getting started and Lighting.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="3. Model_loading.txt">
+    <Text Include="3. Model loading.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="4.1. - 4.2. Stencil_testing.txt">
+    <Text Include="4.1. - 4.2. Stencil testing.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="4.3. - 4.4. Blending_and_Face_culling.txt">
+    <Text Include="4.3. - 4.4. Blending and Face culling.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="4.5. Framebuffer_and_Post_processing.txt">
+    <Text Include="4.5. Framebuffer and Post processing.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="4.6. Cubemaps.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="4.8. Advanced_GLSL.txt">
+    <Text Include="4.8. Advanced GLSL.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
-    <Text Include="4.9. Geometry_shader.txt">
+    <Text Include="4.9. Geometry shader.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.1. Blinn-Phong.txt">
@@ -432,6 +456,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="6. Phisically based renering.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="7.2. Text rendering.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>

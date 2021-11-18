@@ -263,13 +263,13 @@
     <Image Include="resources\textures\wood.png" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="4.8. Advanced_GLSL.txt" />
-    <Text Include="4.3. - 4.4. Blending_and_Face_culling.txt" />
-    <Text Include="4.5. Framebuffer_and_Post_processing.txt" />
-    <Text Include="4.9. Geometry_shader.txt" />
-    <Text Include="1. - 2. Getting_started_and_Lighting.txt" />
-    <Text Include="3. Model_loading.txt" />
-    <Text Include="4.1. - 4.2. Stencil_testing.txt" />
+    <Text Include="4.8. Advanced GLSL.txt" />
+    <Text Include="4.3. - 4.4. Blending and Face culling.txt" />
+    <Text Include="4.5. Framebuffer and Post processing.txt" />
+    <Text Include="4.9. Geometry shader.txt" />
+    <Text Include="1. - 2. Getting started and Lighting.txt" />
+    <Text Include="3. Model loading.txt" />
+    <Text Include="4.1. - 4.2. Stencil testing.txt" />
     <Text Include="4.6. Cubemaps.txt" />
     <Text Include="5.1. Blinn-Phong.txt" />
     <Text Include="5.2. Gamma correction.txt" />
@@ -280,6 +280,7 @@
     <Text Include="5.7. Bloom.txt" />
     <Text Include="5.9. SSAO.txt" />
     <Text Include="6. Phisically based renering.txt" />
+    <Text Include="7.2. Text rendering.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
