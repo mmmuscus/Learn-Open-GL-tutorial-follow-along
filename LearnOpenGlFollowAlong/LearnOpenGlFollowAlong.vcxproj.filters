@@ -58,6 +58,9 @@
     <Filter Include="Resource Files\Shaders\6. Phisically based rendering">
       <UniqueIdentifier>{2a123d7d-1e07-48a8-ba73-8bbf2161e196}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Shaders\7.2. Text rendering">
+      <UniqueIdentifier>{adf47756-58c3-4ade-b69f-90989ab99f1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -323,6 +326,12 @@
     <None Include="BRDF.vert">
       <Filter>Resource Files\Shaders\6. Phisically based rendering</Filter>
     </None>
+    <None Include="text.vert">
+      <Filter>Resource Files\Shaders\7.2. Text rendering</Filter>
+    </None>
+    <None Include="text.frag">
+      <Filter>Resource Files\Shaders\7.2. Text rendering</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -420,6 +429,9 @@
       <Filter>Resource Files\Mains</Filter>
     </Text>
     <Text Include="5.9. SSAO.txt">
+      <Filter>Resource Files\Mains</Filter>
+    </Text>
+    <Text Include="6. Phisically based renering.txt">
       <Filter>Resource Files\Mains</Filter>
     </Text>
   </ItemGroup>

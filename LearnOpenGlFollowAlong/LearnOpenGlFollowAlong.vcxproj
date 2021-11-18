@@ -99,7 +99,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>freetype.lib;glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>F:\Marci\inspired\programmin\graphics_programming\LearnOpenGL\Learn-Open-GL-tutorial-follow-along\LearnOpenGlFollowAlong\Libraries\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -130,7 +130,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>freetype.lib;glfw3.lib;opengl32.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>F:\Marci\inspired\programmin\graphics_programming\LearnOpenGL\Learn-Open-GL-tutorial-follow-along\LearnOpenGlFollowAlong\Libraries\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -239,6 +239,8 @@
     <None Include="stencilTesting.frag" />
     <None Include="stencilTesting.vert" />
     <None Include="stencilTestingFlatColor.frag" />
+    <None Include="text.frag" />
+    <None Include="text.vert" />
     <None Include="yellow.frag" />
   </ItemGroup>
   <ItemGroup>
@@ -277,6 +279,7 @@
     <Text Include="5.6. HDR.txt" />
     <Text Include="5.7. Bloom.txt" />
     <Text Include="5.9. SSAO.txt" />
+    <Text Include="6. Phisically based renering.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
