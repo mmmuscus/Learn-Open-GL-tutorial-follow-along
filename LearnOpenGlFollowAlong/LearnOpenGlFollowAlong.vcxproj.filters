@@ -98,9 +98,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="depthBuffer.frag">
-      <Filter>Resource Files\Shaders</Filter>
-    </None>
     <None Include="planet.vert">
       <Filter>Resource Files\Shaders\4.10. Instancing</Filter>
     </None>
@@ -355,6 +352,9 @@
     </None>
     <None Include="normalVisualization.vert">
       <Filter>Resource Files\Shaders\4.9. Geometry shader</Filter>
+    </None>
+    <None Include="depthBuffer.frag">
+      <Filter>Resource Files\Shaders\4.1. - 4.2. Stencil testing</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
